@@ -1,0 +1,63 @@
+@media sreen and (max-width: 513px) {
+    .button {
+        padding: 1px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex-container-columm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+.button {
+    flex-basis: 25%;
+
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    border: 0.5px solid black;
+    background: rgb(3, 70, 92);
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: bold;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.display {
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(28, 34, 37); 
+    border: 1px solid black;
+    font-size: 2em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
